@@ -52,11 +52,7 @@ class Guvi:
            print("Reports saved in Document.pdf")
 
    def click_media_button(self):
-       # sleep(4)
-       # self.driver.maximize_window()
-       # sleep(4)
-       # self.driver.get(self.url)
-       # sleep(4)
+      
        a1 = ActionChains(self.driver)
        sleep(4)
        m1 = self.driver.find_element(by=By.LINK_TEXT, value="Media")
