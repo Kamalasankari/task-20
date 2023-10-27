@@ -44,15 +44,7 @@ class Guvi:
            f.close()
            self.driver.close()
            self.driver.switch_to.window(self.driver.window_handles[0])
-           # a1 = ActionChains(self.driver)
-           # sleep(4)
-           # m1 = self.driver.find_element(by=By.LINK_TEXT, value="Media")
-           # sleep(4)
-           # # hover over element
-           # a1.move_to_element(m1).perform()
-           # # identify sub menu element
-           # self.driver.find_element(by=By.LINK_TEXT, value="Photo Gallery").click()
-           # sleep(4)
+           
 
        except NoSuchElementException as selenium_error:
            print(selenium_error)
